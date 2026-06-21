@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'projectnode1', // Usually your GitHub org/user name.
-  projectName: 'books', // Usually your repo name.
+  projectName: 'projectnode1.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
