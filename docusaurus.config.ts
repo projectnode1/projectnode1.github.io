@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: "Project Node",
   tagline: 'We are a community of builders exploring broad technical paradigms and creating open-source tools and code that meaningfully serve the broader community.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://projectnode1.github.io',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -73,7 +73,7 @@ const config: Config = {
           label: 'Knowledge',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/projectnode1',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,16 +95,20 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/NqmgctCmPC',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/projectnode1',
+            },
+            {
+              label: 'X',
+              href: 'https://x.com/projectnode1',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/@projectnode1',
             },
           ],
         },
@@ -113,7 +117,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/projectnode1',
+            },
+            {
+              label: 'Fider',
+              href: 'https://node.fider.io/',
             },
           ],
         },

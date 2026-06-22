@@ -1,0 +1,25 @@
+---
+sidebar_position: 2
+---
+
+# SPI
+
+SPI (Serial Peripheral Interface) is a communication protocol used to communicate
+between devices. Both devices share 
+a common clock signal leading to synchronized communication. 
+
+There are four wires:
+- MOSI (Master Out Slave In) - sends data from master to slave
+- MISO (Master In Slave Out) - sends data from slave to master
+- SCLK (Serial Clock) - provides the clock signal
+- SS/CS (Slave Select/Chip Select) - selects the slave device
+
+Characteristics:
+- Synchronous
+
+Pros:
+- Faster than UART
+- Supports multiple slave devices
+
+Cons:
+- Requires more wires than UART, messy

@@ -1,0 +1,22 @@
+---
+sidebar_position: 3
+---
+
+# I2C
+
+I2C (Inter-Integrated Circuit) is a communication protocol used to communicate
+between devices. The communication is synchronous, meaning both devices share 
+a common clock signal. I2C allows connecting upto 127 devices on a the same 
+two wires mentioned below. Each device gets a unique address and master knows
+which device it's communicating with, slave devices can be addressed individually.
+
+There are two wires: 
+- SDA (Serial Data) - sends data between devices
+- SCL (Serial Clock) - provides the clock signal
+
+Pros:
+- Only two wires required
+- Supports multiple devices on the same bus
+
+Cons:
+- Slower than SPI
