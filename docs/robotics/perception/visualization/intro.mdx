@@ -1,0 +1,40 @@
+---
+sidebar_position: 1
+---
+
+# Introduction
+
+This section focuses on computer graphics and visualization in the context of robotics.
+
+Computer vision and sensing focus on using incoming data from cameras and other sensors
+ to understand the environment and support decision-making. Computer graphics and 
+ visualization, on the other hand, focus on creating visual representations, simulations,
+  and interfaces for the environment and robotic systems. In a simplified sense, computer
+   vision acts as the input side of the system, while graphics and visualization help 
+   present, simulate, and interpret the system’s output.
+
+Images are discussed in `computer-vision/algorithms/image-processing/images.mdx`. Images
+ are 2D representations of the environment. However, many robotic systems do not only work
+  with 2D images. For example, sensors may create a 3D map of the environment. Once this 
+  data is captured, it needs to be stored, processed, and visualized in a meaningful way.
+
+This is where computer graphics and visualization become important. They allow us to create
+ 2D and 3D visualizations of the environment, the robot, and the robot’s internal state. 
+ These visualizations can be shown to users, used for debugging, or used for simulation 
+ and analysis. Sometimes this involves projecting 3D data onto a 2D screen. Other times,
+  the visualization may be designed directly as a 2D interface, such as an image view, map,
+   dashboard, or camera feed.
+
+There are also alternative modes of visualization, such as AR, VR, and volumetric displays:
+
+* **Augmented Reality (AR):** Overlays digital information onto the real world. Examples 
+include Meta Orion, Viture Ultra, and XReal devices.
+* **Virtual Reality (VR):** Creates a fully immersive digital environment. Examples include
+ Meta Quest and HTC Vive.
+* **Volumetric Displays:** Display 3D content without requiring traditional headsets or 
+glasses. Examples include Looking Glass and Voxon VX2.
+
+These visualization modes are especially interesting for robotics because they allow us to
+represent spatial data more naturally. For example, Gaussian splatting techniques can be
+ used to capture and visualize a 3D scene. Dynamic Gaussian splatting extends this idea
+ over time, making it possible to represent 4D visualizations where the fourth dimension is time.

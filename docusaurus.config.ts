@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: "Project Node",
-  tagline: 'We are a community of builders exploring broad technical paradigms and creating open-source tools and code that meaningfully serve the broader community.',
+  tagline: 'We are a community of builders exploring broad technical paradigms and creating open knowledge, explanations, and reproducible code that meaningfully serve the broader community.',
   favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
